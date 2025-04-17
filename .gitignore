@@ -1,0 +1,10 @@
+# Ignora cache e arquivos gigantes do VS Code
+vscode/CachedExtensionVSIXs/
+vscode/logs/
+vscode/Service Worker/
+vscode/User/workspaceStorage/
+vscode/User/globalStorage/
+.vscode
+.oh-my-zsh
+.cache
+.local
