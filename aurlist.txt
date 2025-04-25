@@ -1,0 +1,4 @@
+google-chrome
+reiserfsprogs
+rider
+visual-studio-code-bin
