@@ -12,7 +12,6 @@ bash-completion
 bibata-cursor-theme
 btrfs-progs
 btrfsmaintenance
-code
 collision
 cpupower
 cronie
@@ -88,6 +87,7 @@ gnome-user-docs
 gnome-user-share
 gnome-weather
 gnuchess
+google-chrome
 grilo-plugins
 grub
 grub-btrfs
@@ -165,6 +165,7 @@ nano-syntax-highlighting
 nautilus
 nautilus-admin
 nautilus-empty-file
+neofetch
 network-manager-sstp
 networkmanager
 networkmanager-openconnect
@@ -195,6 +196,8 @@ python-pypresence
 qt5ct
 qt6ct
 quadrapassel
+reiserfsprogs
+rider
 rsync
 rygel
 s-nail
@@ -222,6 +225,7 @@ update-grub
 usbutils
 vi
 vim-nerdtree
+visual-studio-code-bin
 vulkan-intel
 vulkan-nouveau
 vulkan-radeon
