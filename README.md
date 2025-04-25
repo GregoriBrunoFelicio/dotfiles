@@ -1,12 +1,25 @@
-# Greg's Dotfiles
+# 🧙‍♂️ Greg's Dotfiles
 
-Just my terminal and system config files, so I can set everything up quickly if I ever wipe my system or move to a new one.
+My personal terminal and system configuration files for Manjaro Linux.  
+This repo helps me set up everything quickly if I wipe my system or move to a new machine.
 
-Includes:
+---
 
-- ZSH config with Manjaro’s default prompt
-- Git global config
-- GNOME UI settings
-- List of installed packages (pacman and AUR)
-- 
-That's it.
+## 🗂 What's Included
+
+- ✅ `.zshrc`: Zsh config (Manjaro default prompt, aliases, paths)
+- ✅ `.gitconfig`: Global Git configuration
+- ✅ `pkglist.txt`: List of manually installed packages (`pacman`)
+- ✅ `aurlist.txt`: List of packages from the AUR (`yay`)
+- ✅ `gnome-settings.dconf`: GNOME desktop settings (themes, shortcuts, etc)
+- ✅ `setup.sh`: Script to install everything and restore configs
+
+---
+
+## 🚀 How to Set Everything Up (on a new machine)
+
+```bash
+git clone https://github.com/GregoriBrunoFelicio/dotfiles.git
+cd dotfiles
+chmod +x setup.sh
+./setup.sh
