@@ -23,6 +23,8 @@ discord
 dmidecode
 dmraid
 dnsmasq
+docker
+docker-compose
 dosfstools
 dotnet-runtime-8.0
 dotnet-sdk
@@ -50,7 +52,6 @@ gnome-backgrounds
 gnome-boxes
 gnome-browser-connector
 gnome-calculator
-gnome-calendar
 gnome-characters
 gnome-clocks
 gnome-connections
@@ -87,7 +88,6 @@ gnome-user-docs
 gnome-user-share
 gnome-weather
 gnuchess
-google-chrome
 grilo-plugins
 grub
 grub-btrfs
@@ -196,8 +196,6 @@ python-pypresence
 qt5ct
 qt6ct
 quadrapassel
-reiserfsprogs
-rider
 rsync
 rygel
 s-nail
@@ -206,7 +204,6 @@ simple-scan
 snapshot
 sof-firmware
 squashfs-tools
-steam
 sudo
 sushi
 sysfsutils
@@ -225,7 +222,6 @@ update-grub
 usbutils
 vi
 vim-nerdtree
-visual-studio-code-bin
 vulkan-intel
 vulkan-nouveau
 vulkan-radeon
@@ -243,3 +239,4 @@ xfsprogs
 xmrig
 xorg-server
 yay
+zlib-ng
