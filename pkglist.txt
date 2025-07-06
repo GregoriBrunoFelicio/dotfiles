@@ -4,18 +4,21 @@ acpid
 adw-gtk-theme
 amd-ucode
 apparmor
+aspnet-runtime
 aspnet-runtime-8.0
 b43-fwcutter
 baobab
 base
 bash-completion
 bibata-cursor-theme
+bleachbit
 btrfs-progs
 btrfsmaintenance
 collision
 cpupower
 cronie
 cryptsetup
+dbeaver
 deja-dup
 device-mapper
 diffutils
@@ -88,6 +91,7 @@ gnome-user-docs
 gnome-user-share
 gnome-weather
 gnuchess
+google-chrome
 grilo-plugins
 grub
 grub-btrfs
@@ -182,6 +186,7 @@ nss-mdns
 ntfs-3g
 nvidia-settings
 nvidia-utils
+obs-studio
 openssh
 os-prober
 pamac-gnome-integration
@@ -189,6 +194,7 @@ pamac-gtk
 papirus-maia-icon-theme
 perl
 plymouth-theme-manjaro
+postman-bin
 power-profiles-daemon
 powerline
 powerline-fonts
@@ -196,6 +202,8 @@ python-pypresence
 qt5ct
 qt6ct
 quadrapassel
+reiserfsprogs
+rider
 rsync
 rygel
 s-nail
@@ -222,6 +230,7 @@ update-grub
 usbutils
 vi
 vim-nerdtree
+visual-studio-code-bin
 vulkan-intel
 vulkan-nouveau
 vulkan-radeon
