@@ -13,10 +13,11 @@ This repo helps me set up everything quickly if I wipe my system or move to a ne
 - ✅ `aurlist.txt`: List of packages from the AUR (`yay`)
 - ✅ `gnome-settings.dconf`: GNOME desktop settings (themes, shortcuts, etc)
 - ✅ `setup.sh`: Script to install everything and restore configs
+- ✅ `update.sh`: Script to export your current system state back into the dotfiles
 
 ---
 
-## 🚀 How to Set Everything Up (on a new machine)
+## 🚀 How to Set Everything Up
 
 ```bash
 git clone https://github.com/GregoriBrunoFelicio/dotfiles.git
