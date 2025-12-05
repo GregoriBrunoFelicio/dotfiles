@@ -130,14 +130,23 @@ application-id='gnome-power-panel.desktop'
 [org/gnome/desktop/notifications/application/google-chrome]
 application-id='google-chrome.desktop'
 
+[org/gnome/desktop/notifications/application/idea]
+application-id='idea.desktop'
+
 [org/gnome/desktop/notifications/application/io-dbeaver-dbeaver]
 application-id='io.dbeaver.DBeaver.desktop'
 
 [org/gnome/desktop/notifications/application/libreoffice-calc]
 application-id='libreoffice-calc.desktop'
 
+[org/gnome/desktop/notifications/application/org-gnome-baobab]
+application-id='org.gnome.baobab.desktop'
+
 [org/gnome/desktop/notifications/application/org-gnome-characters]
 application-id='org.gnome.Characters.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-console]
+application-id='org.gnome.Console.desktop'
 
 [org/gnome/desktop/notifications/application/org-gnome-dejadup]
 application-id='org.gnome.DejaDup.desktop'
@@ -277,6 +286,9 @@ last-folder-path='/home/greg/Downloads'
 [org/gnome/portal/filechooser/google-chrome]
 last-folder-path='/home/greg/RiderProjects/StoryCraft/StoryCraft Contracts/StoryCraft.Contracts/src/StoryCraft.Contracts/bin/Release'
 
+[org/gnome/portal/filechooser/org.gnome.Nautilus]
+last-folder-path='/home/greg/Downloads'
+
 [org/gnome/portal/filechooser/org.gnome.TextEditor]
 last-folder-path='/home/greg/Documents'
 
@@ -289,7 +301,7 @@ sleep-inactive-ac-timeout=900
 sleep-inactive-ac-type='suspend'
 
 [org/gnome/shell]
-app-picker-layout=[{'accessories': <{'position': <0>}>, 'dev.qwery.AddWater.desktop': <{'position': <1>}>, 'org.gnome.Snapshot.desktop': <{'position': <2>}>, 'org.gnome.SimpleScan.desktop': <{'position': <3>}>, 'org.gnome.Maps.desktop': <{'position': <4>}>, 'games': <{'position': <5>}>, 'org.gnome.gThumb.desktop': <{'position': <6>}>, 'org.gnome.Totem.desktop': <{'position': <7>}>, 'gnome-layouts.desktop': <{'position': <8>}>, 'org.gnome.Lollypop.desktop': <{'position': <9>}>, 'code.desktop': <{'position': <10>}>, 'office': <{'position': <11>}>, 'system-tools': <{'position': <12>}>, 'webapp-manager.desktop': <{'position': <13>}>, 'org.gnome.gitg.desktop': <{'position': <14>}>}]
+app-picker-layout=[{'accessories': <{'position': <0>}>, 'dev.qwery.AddWater.desktop': <{'position': <1>}>, 'org.gnome.Snapshot.desktop': <{'position': <2>}>, 'org.gnome.SimpleScan.desktop': <{'position': <3>}>, 'org.gnome.Maps.desktop': <{'position': <4>}>, 'games': <{'position': <5>}>, 'org.gnome.gThumb.desktop': <{'position': <6>}>, 'org.gnome.Totem.desktop': <{'position': <7>}>, 'gnome-layouts.desktop': <{'position': <8>}>, 'org.gnome.Lollypop.desktop': <{'position': <9>}>, 'code.desktop': <{'position': <10>}>, 'office': <{'position': <11>}>, 'system-tools': <{'position': <12>}>, 'webapp-manager.desktop': <{'position': <13>}>, 'org.gnome.gitg.desktop': <{'position': <14>}>, 'cmake-gui.desktop': <{'position': <15>}>, 'com.obsproject.Studio.desktop': <{'position': <16>}>, 'vlc.desktop': <{'position': <17>}>, 'robo3t.desktop': <{'position': <18>}>}]
 favorite-apps=['org.gnome.Terminal.desktop', 'org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'rider.desktop', 'org.gnome.TextEditor.desktop', 'org.manjaro.pamac.manager.desktop', 'discord.desktop', 'org.gnome.Settings.desktop', 'libreoffice-calc.desktop', 'org.gnome.SystemMonitor.desktop', 'io.dbeaver.DBeaver.desktop', 'postman.desktop']
 last-selected-power-profile='performance'
 welcome-dialog-last-shown-version='47.2'
