@@ -5,7 +5,7 @@ This repo helps me set up everything quickly if I wipe my system or move to a ne
 
 ---
 
-## 🗂 What's Included
+##  What's Included
 
 -  `.zshrc`: Zsh config (Manjaro default prompt, aliases, paths)
 -  `.gitconfig`: Global Git configuration
