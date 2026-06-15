@@ -39,7 +39,10 @@ update-dotfiles() {
     bash ~/Repositories/dotfiles/update.sh && \
     cd ~/Repositories/dotfiles && \
     git add -A && \
-    git commit -m "update dotfiles" && \
-    git push && \
+    if ! git diff --cached --quiet; then
+        git commit -m "update dotfiles" && git push
+    else
+        echo "Dotfiles already up to date, nothing to commit."
+    fi && \
     cd - > /dev/null
 }
