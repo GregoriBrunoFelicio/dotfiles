@@ -2,7 +2,7 @@
 USE_POWERLINE="true"
 # Has weird character width
 # Example:
-#    is not a diamond
+#    is not a diamond
 HAS_WIDECHARS="false"
 # Source manjaro-zsh-configuration
 if [[ -e /usr/share/zsh/manjaro-zsh-config ]]; then
@@ -29,4 +29,17 @@ export PATH="$HOME/.dotnet/tools:$PATH"
 
 repo() {
     cd ~/Repositories
+}
+
+cleanup() {
+    bash ~/Repositories/manjaro-cleanup-script/clean-up-manjaro.sh
+}
+
+update-dotfiles() {
+    bash ~/Repositories/dotfiles/update.sh && \
+    cd ~/Repositories/dotfiles && \
+    git add -A && \
+    git commit -m "update dotfiles" && \
+    git push && \
+    cd - > /dev/null
 }
