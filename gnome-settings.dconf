@@ -20,6 +20,11 @@ window-width=400
 [org/gnome/Showtime/State]
 is-maximized=false
 
+[org/gnome/Snapshot]
+is-maximized=false
+window-height=640
+window-width=800
+
 [org/gnome/control-center]
 last-panel='sound'
 window-state=(980, 640, false)
@@ -79,10 +84,13 @@ xkb-options=@as []
 toolkit-accessibility=false
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-console', 'firefox', 'gnome-about-panel', 'jetbrains-rider-df05e5cf-a685-46ed-a149-e69c1cc8d0e9', 'kitty', 'org-manjaro-pamac-manager', 'org-gnome-showtime', 'vlc', 'discord', 'code']
+application-children=['org-gnome-console', 'firefox', 'gnome-about-panel', 'jetbrains-rider-df05e5cf-a685-46ed-a149-e69c1cc8d0e9', 'kitty', 'org-manjaro-pamac-manager', 'org-gnome-showtime', 'vlc', 'discord', 'code', 'timeshift-gtk', 'com-obsproject-studio', 'org-mozilla-thunderbird', 'org-gnome-nautilus']
 
 [org/gnome/desktop/notifications/application/code]
 application-id='code.desktop'
+
+[org/gnome/desktop/notifications/application/com-obsproject-studio]
+application-id='com.obsproject.Studio.desktop'
 
 [org/gnome/desktop/notifications/application/discord]
 application-id='discord.desktop'
@@ -102,11 +110,20 @@ application-id='kitty.desktop'
 [org/gnome/desktop/notifications/application/org-gnome-console]
 application-id='org.gnome.Console.desktop'
 
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
 [org/gnome/desktop/notifications/application/org-gnome-showtime]
 application-id='org.gnome.Showtime.desktop'
 
 [org/gnome/desktop/notifications/application/org-manjaro-pamac-manager]
 application-id='org.manjaro.pamac.manager.desktop'
+
+[org/gnome/desktop/notifications/application/org-mozilla-thunderbird]
+application-id='org.mozilla.Thunderbird.desktop'
+
+[org/gnome/desktop/notifications/application/timeshift-gtk]
+application-id='timeshift-gtk.desktop'
 
 [org/gnome/desktop/notifications/application/vlc]
 application-id='vlc.desktop'
@@ -141,7 +158,7 @@ maximized=true
 last-folder-path='/home/gregori/Repositories/Interview'
 
 [org/gnome/portal/filechooser/firefox]
-last-folder-path='/home/gregori/Repositories/gsharp-tests'
+last-folder-path='/home/gregori/Downloads'
 
 [org/gnome/settings-daemon/plugins/color]
 night-light-schedule-automatic=false
@@ -153,7 +170,7 @@ donation-reminder-last-shown=int64 1781015651034507
 sleep-inactive-ac-type='nothing'
 
 [org/gnome/shell]
-app-picker-layout=[{'bssh.desktop': <{'position': <0>}>, 'dev.qwery.AddWater.desktop': <{'position': <1>}>, 'org.gnome.Decibels.desktop': <{'position': <2>}>, 'bvnc.desktop': <{'position': <3>}>, 'org.gnome.Music.desktop': <{'position': <4>}>, 'gufw.desktop': <{'position': <5>}>, 'org.gnome.SimpleScan.desktop': <{'position': <6>}>, 'org.gnome.Loupe.desktop': <{'position': <7>}>, 'Game': <{'position': <8>}>, 'org.gnome.Showtime.desktop': <{'position': <9>}>, 'org.gnome.Snapshot.desktop': <{'position': <10>}>, 'msm_notifier_settings.desktop': <{'position': <11>}>, 'manjaro-settings-manager.desktop': <{'position': <12>}>, 'org.mozilla.Thunderbird.desktop': <{'position': <13>}>, 'webapp-manager.desktop': <{'position': <14>}>, 'Office': <{'position': <15>}>, 'gnome-printers-panel.desktop': <{'position': <16>}>, 'qv4l2.desktop': <{'position': <17>}>, 'qvidcap.desktop': <{'position': <18>}>, 'qt5ct.desktop': <{'position': <19>}>, 'qt6ct.desktop': <{'position': <20>}>, 'System': <{'position': <21>}>, 'Utilities': <{'position': <22>}>}, {'nvidia-settings.desktop': <{'position': <0>}>, 'google-chrome.desktop': <{'position': <1>}>, 'jetbrains-toolbox.desktop': <{'position': <2>}>, 'vlc.desktop': <{'position': <3>}>, 'mpv.desktop': <{'position': <4>}>}]
+app-picker-layout=[{'bssh.desktop': <{'position': <0>}>, 'dev.qwery.AddWater.desktop': <{'position': <1>}>, 'org.gnome.Decibels.desktop': <{'position': <2>}>, 'bvnc.desktop': <{'position': <3>}>, 'org.gnome.Music.desktop': <{'position': <4>}>, 'gufw.desktop': <{'position': <5>}>, 'org.gnome.SimpleScan.desktop': <{'position': <6>}>, 'org.gnome.Loupe.desktop': <{'position': <7>}>, 'Game': <{'position': <8>}>, 'org.gnome.Showtime.desktop': <{'position': <9>}>, 'org.gnome.Snapshot.desktop': <{'position': <10>}>, 'msm_notifier_settings.desktop': <{'position': <11>}>, 'manjaro-settings-manager.desktop': <{'position': <12>}>, 'org.mozilla.Thunderbird.desktop': <{'position': <13>}>, 'webapp-manager.desktop': <{'position': <14>}>, 'Office': <{'position': <15>}>, 'gnome-printers-panel.desktop': <{'position': <16>}>, 'qv4l2.desktop': <{'position': <17>}>, 'qvidcap.desktop': <{'position': <18>}>, 'qt5ct.desktop': <{'position': <19>}>, 'qt6ct.desktop': <{'position': <20>}>, 'System': <{'position': <21>}>, 'Utilities': <{'position': <22>}>}, {'nvidia-settings.desktop': <{'position': <0>}>, 'google-chrome.desktop': <{'position': <1>}>, 'jetbrains-toolbox.desktop': <{'position': <2>}>, 'vlc.desktop': <{'position': <3>}>, 'mpv.desktop': <{'position': <4>}>, 'org.kde.kdenlive.desktop': <{'position': <5>}>}]
 favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'jetbrains-rider-df05e5cf-a685-46ed-a149-e69c1cc8d0e9.desktop', 'kitty.desktop', 'org.gnome.Settings.desktop', 'org.manjaro.pamac.manager.desktop', 'com.obsproject.Studio.desktop', 'discord.desktop', 'code.desktop']
 last-selected-power-profile='performance'
 welcome-dialog-last-shown-version='49.5'
@@ -199,3 +216,17 @@ locations=@av []
 [org/gtk/gtk4/settings/file-chooser]
 show-hidden=false
 sort-directories-first=false
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=171
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-position=(665, 82)
+window-size=(1231, 902)

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd "$(dirname "$0")"
+
 echo "Updating dotfiles..."
 
 echo "Saving installed packages..."

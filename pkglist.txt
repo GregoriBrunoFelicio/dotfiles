@@ -56,6 +56,7 @@ inetutils
 intel-ucode
 inxi
 jfsutils
+kdenlive
 kitty
 linux612-nvidia-580xx
 linux618-nvidia-580xx
