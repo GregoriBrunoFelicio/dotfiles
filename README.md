@@ -1,6 +1,6 @@
 #  Greg's Dotfiles
 
-My personal terminal and system configuration files for Manjaro Linux.  
+My personal terminal and system configuration files for Linux.  
 This repo helps me set up everything quickly if I wipe my system or move to a new machine.
 
 ---
