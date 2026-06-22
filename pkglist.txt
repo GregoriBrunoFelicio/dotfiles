@@ -92,6 +92,7 @@ networkmanager-strongswan
 networkmanager-vpnc
 nfs-utils
 papers
+plocate
 plymouth-theme-manjaro
 quadrapassel
 ripgrep
