@@ -26,7 +26,7 @@ window-height=640
 window-width=800
 
 [org/gnome/control-center]
-last-panel='keyboard'
+last-panel='wifi'
 window-state=(980, 640, false)
 
 [org/gnome/deja-dup]
@@ -175,6 +175,7 @@ command='kitty'
 name='Kitty Terminal'
 
 [org/gnome/settings-daemon/plugins/power]
+power-button-action='interactive'
 sleep-inactive-ac-type='nothing'
 
 [org/gnome/shell]
