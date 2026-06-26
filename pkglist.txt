@@ -56,7 +56,6 @@ inetutils
 intel-ucode
 inxi
 jfsutils
-kdenlive
 kitty
 linux612-nvidia-580xx
 linux618-nvidia-580xx
@@ -91,6 +90,7 @@ networkmanager-openvpn
 networkmanager-strongswan
 networkmanager-vpnc
 nfs-utils
+ntfs-3g
 papers
 plocate
 plymouth-theme-manjaro
@@ -103,7 +103,6 @@ snapshot
 sof-firmware
 stylua
 sysfsutils
-thunderbird
 timeshift-autosnap-manjaro
 tree-sitter-cli
 ttf-indic-otf
