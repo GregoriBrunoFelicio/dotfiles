@@ -79,6 +79,7 @@ memtest86+-efi
 micro
 mkinitcpio-openswap
 mpv
+mypaint
 nano-syntax-highlighting
 nautilus-admin
 nautilus-empty-file

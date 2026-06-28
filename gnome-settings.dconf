@@ -42,7 +42,7 @@ window-height=640
 window-width=800
 
 [org/gnome/control-center]
-last-panel='universal-access'
+last-panel='wacom'
 window-state=(980, 640, true)
 
 [org/gnome/deja-dup]
@@ -157,7 +157,7 @@ application-id='vlc.desktop'
 numlock-state=true
 
 [org/gnome/desktop/peripherals/stylus/588d012e]
-button-action='right'
+button-action='default'
 eraser-pressure-curve=[0, 0, 100, 100]
 pressure-curve=[0, 0, 100, 100]
 
@@ -172,6 +172,14 @@ keybinding='<Control>z'
 
 [org/gnome/desktop/peripherals/tablets/056a:0374/buttonB]
 action='none'
+
+[org/gnome/desktop/peripherals/tablets/056a:0374/buttonC]
+action='keybinding'
+keybinding='Up'
+
+[org/gnome/desktop/peripherals/tablets/056a:0374/buttonD]
+action='keybinding'
+keybinding='Down'
 
 [org/gnome/desktop/peripherals/touchpad]
 two-finger-scrolling-enabled=true
