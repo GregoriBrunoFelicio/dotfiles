@@ -37,12 +37,13 @@ window-width=400
 is-maximized=false
 
 [org/gnome/Snapshot]
+capture-mode='video'
 is-maximized=false
 window-height=640
 window-width=800
 
 [org/gnome/control-center]
-last-panel='wacom'
+last-panel='bluetooth'
 window-state=(980, 640, true)
 
 [org/gnome/deja-dup]
@@ -100,7 +101,7 @@ xkb-options=@as []
 toolkit-accessibility=false
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-console', 'firefox', 'gnome-about-panel', 'jetbrains-rider-df05e5cf-a685-46ed-a149-e69c1cc8d0e9', 'kitty', 'org-manjaro-pamac-manager', 'org-gnome-showtime', 'vlc', 'discord', 'code', 'timeshift-gtk', 'com-obsproject-studio', 'org-mozilla-thunderbird', 'org-gnome-nautilus', 'gnome-power-panel', 'org-gnome-characters', 'org-kde-krita']
+application-children=['org-gnome-console', 'firefox', 'gnome-about-panel', 'jetbrains-rider-df05e5cf-a685-46ed-a149-e69c1cc8d0e9', 'kitty', 'org-manjaro-pamac-manager', 'org-gnome-showtime', 'vlc', 'discord', 'code', 'timeshift-gtk', 'com-obsproject-studio', 'org-mozilla-thunderbird', 'org-gnome-nautilus', 'gnome-power-panel', 'org-gnome-characters', 'org-kde-krita', 'jetbrains-toolbox']
 
 [org/gnome/desktop/notifications/application/code]
 application-id='code.desktop'
@@ -122,6 +123,9 @@ application-id='gnome-power-panel.desktop'
 
 [org/gnome/desktop/notifications/application/jetbrains-rider-df05e5cf-a685-46ed-a149-e69c1cc8d0e9]
 application-id='jetbrains-rider-df05e5cf-a685-46ed-a149-e69c1cc8d0e9.desktop'
+
+[org/gnome/desktop/notifications/application/jetbrains-toolbox]
+application-id='jetbrains-toolbox.desktop'
 
 [org/gnome/desktop/notifications/application/kitty]
 application-id='kitty.desktop'
@@ -202,7 +206,7 @@ migrated-gtk-settings=true
 [org/gnome/nautilus/window-state]
 initial-size=(890, 550)
 initial-size-file-chooser=(890, 550)
-maximized=true
+maximized=false
 
 [org/gnome/portal/filechooser/code]
 last-folder-path='/home/gregori/Repositories/Interview'
@@ -230,8 +234,8 @@ sleep-inactive-ac-timeout=3600
 sleep-inactive-ac-type='suspend'
 
 [org/gnome/shell]
-app-picker-layout=[{'bssh.desktop': <{'position': <0>}>, 'dev.qwery.AddWater.desktop': <{'position': <1>}>, 'org.gnome.Decibels.desktop': <{'position': <2>}>, 'bvnc.desktop': <{'position': <3>}>, 'org.gnome.Music.desktop': <{'position': <4>}>, 'gufw.desktop': <{'position': <5>}>, 'org.gnome.SimpleScan.desktop': <{'position': <6>}>, 'org.gnome.Loupe.desktop': <{'position': <7>}>, 'Game': <{'position': <8>}>, 'org.gnome.Showtime.desktop': <{'position': <9>}>, 'org.gnome.Snapshot.desktop': <{'position': <10>}>, 'msm_notifier_settings.desktop': <{'position': <11>}>, 'manjaro-settings-manager.desktop': <{'position': <12>}>, 'webapp-manager.desktop': <{'position': <13>}>, 'Office': <{'position': <14>}>, 'gnome-printers-panel.desktop': <{'position': <15>}>, 'qv4l2.desktop': <{'position': <16>}>, 'qvidcap.desktop': <{'position': <17>}>, 'qt5ct.desktop': <{'position': <18>}>, 'qt6ct.desktop': <{'position': <19>}>, 'System': <{'position': <20>}>, 'Utilities': <{'position': <21>}>}, {'nvidia-settings.desktop': <{'position': <0>}>, 'google-chrome.desktop': <{'position': <1>}>, 'jetbrains-toolbox.desktop': <{'position': <2>}>, 'vlc.desktop': <{'position': <3>}>, 'mpv.desktop': <{'position': <4>}>}]
-favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'jetbrains-rider-df05e5cf-a685-46ed-a149-e69c1cc8d0e9.desktop', 'org.gnome.Settings.desktop', 'kitty.desktop', 'org.manjaro.pamac.manager.desktop', 'com.obsproject.Studio.desktop', 'discord.desktop', 'code.desktop', 'com.github.xournalpp.xournalpp.desktop']
+app-picker-layout=[{'bssh.desktop': <{'position': <0>}>, 'dev.qwery.AddWater.desktop': <{'position': <1>}>, 'org.gnome.Decibels.desktop': <{'position': <2>}>, 'bvnc.desktop': <{'position': <3>}>, 'org.gnome.Music.desktop': <{'position': <4>}>, 'gufw.desktop': <{'position': <5>}>, 'org.gnome.SimpleScan.desktop': <{'position': <6>}>, 'org.gnome.Loupe.desktop': <{'position': <7>}>, 'Game': <{'position': <8>}>, 'org.gnome.Showtime.desktop': <{'position': <9>}>, 'org.gnome.Snapshot.desktop': <{'position': <10>}>, 'msm_notifier_settings.desktop': <{'position': <11>}>, 'manjaro-settings-manager.desktop': <{'position': <12>}>, 'webapp-manager.desktop': <{'position': <13>}>, 'Office': <{'position': <14>}>, 'gnome-printers-panel.desktop': <{'position': <15>}>, 'qv4l2.desktop': <{'position': <16>}>, 'qvidcap.desktop': <{'position': <17>}>, 'qt5ct.desktop': <{'position': <18>}>, 'qt6ct.desktop': <{'position': <19>}>, 'System': <{'position': <20>}>, 'Utilities': <{'position': <21>}>}, {'nvidia-settings.desktop': <{'position': <0>}>, 'google-chrome.desktop': <{'position': <1>}>, 'jetbrains-toolbox.desktop': <{'position': <2>}>, 'vlc.desktop': <{'position': <3>}>, 'mpv.desktop': <{'position': <4>}>, 'jetbrains-rustrover-15f8755f-e641-41b9-8e32-a8ee65c6b3b4.desktop': <{'position': <5>}>, 'discord.desktop': <{'position': <6>}>}]
+favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'jetbrains-rider-df05e5cf-a685-46ed-a149-e69c1cc8d0e9.desktop', 'org.gnome.Settings.desktop', 'kitty.desktop', 'org.manjaro.pamac.manager.desktop', 'com.obsproject.Studio.desktop', 'code.desktop', 'mypaint.desktop']
 last-selected-power-profile='performance'
 welcome-dialog-last-shown-version='49.5'
 
