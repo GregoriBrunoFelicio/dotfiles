@@ -81,6 +81,7 @@ mkinitcpio-openswap
 mpv
 mypaint
 nano-syntax-highlighting
+nasm
 nautilus-admin
 nautilus-empty-file
 nautilus-open-any-terminal

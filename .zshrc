@@ -80,6 +80,12 @@ neovim-plugin-update() {
     echo "\nConcluído! $updated plugin(s) atualizado(s)."
 }
 
+git-default-commit() {
+    git add .
+    git commit -m "default"
+    git push
+}
+
 my-commands() {
     echo "Comandos pessoais (~/.zshrc):\n"
     grep -E '^\s*[a-zA-Z_][a-zA-Z0-9_-]*\s*\(\)' ~/.zshrc \

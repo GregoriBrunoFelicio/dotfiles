@@ -206,7 +206,7 @@ migrated-gtk-settings=true
 [org/gnome/nautilus/window-state]
 initial-size=(890, 550)
 initial-size-file-chooser=(890, 550)
-maximized=false
+maximized=true
 
 [org/gnome/portal/filechooser/code]
 last-folder-path='/home/gregori/Repositories/Interview'
