@@ -27,7 +27,7 @@ chpwd_functions+=(_set_tab_title)
 
 export PATH="$HOME/.dotnet/tools:$PATH"
 
-repo() {
+repos() {
     cd ~/Repositories
 }
 
@@ -87,7 +87,7 @@ git-default-commit() {
 }
 
 my-commands() {
-    echo "Comandos pessoais (~/.zshrc):\n"
+    echo "My commands (~/.zshrc):\n"
     grep -E '^\s*[a-zA-Z_][a-zA-Z0-9_-]*\s*\(\)' ~/.zshrc \
         | grep -v '^_' \
         | sed 's/().*//' \
