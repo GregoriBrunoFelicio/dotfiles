@@ -27,6 +27,10 @@ chpwd_functions+=(_set_tab_title)
 
 export PATH="$HOME/.dotnet/tools:$PATH"
 
+cls() {
+    clear
+}
+
 repos() {
     cd ~/Repositories
 }
