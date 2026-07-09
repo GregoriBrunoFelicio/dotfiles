@@ -20,7 +20,6 @@ fd
 ffmpeg-audio-thumbnailer
 ffmpegthumbnailer
 firefox
-fragments
 github-cli
 glibc-locales
 gnome-backgrounds
@@ -81,7 +80,6 @@ mkinitcpio-openswap
 mpv
 mypaint
 nano-syntax-highlighting
-nasm
 nautilus-admin
 nautilus-empty-file
 nautilus-open-any-terminal
@@ -115,3 +113,4 @@ xf86-video-amdgpu
 xf86-video-ati
 xf86-video-intel
 xf86-video-nouveau
+yay

@@ -93,3 +93,10 @@ my-commands() {
         | sed 's/().*//' \
         | sed 's/^[[:space:]]*/    /'
 }
+
+export EDITOR=nvim
+
+lk() {
+    local dir
+    dir="$(command walk "$@")" && [ -n "$dir" ] && cd "$dir" && nvim .
+}
