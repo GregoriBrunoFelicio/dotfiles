@@ -43,7 +43,7 @@ window-height=640
 window-width=800
 
 [org/gnome/control-center]
-last-panel='power'
+last-panel='keyboard'
 window-state=(980, 640, true)
 
 [org/gnome/deja-dup]
