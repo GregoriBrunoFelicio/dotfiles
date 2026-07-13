@@ -46,6 +46,7 @@ gnome-themes-extra
 gnome-tour
 gnome-user-docs
 gnome-weather
+godot
 grub-theme-manjaro
 gtksourceview-pkgbuild
 gufw
