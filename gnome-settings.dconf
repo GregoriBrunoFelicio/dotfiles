@@ -212,7 +212,7 @@ initial-size-file-chooser=(890, 550)
 maximized=true
 
 [org/gnome/portal/filechooser/code]
-last-folder-path='/home/gregori/Repositories/new-game-project'
+last-folder-path='/home/gregori/Repositories/Interview'
 
 [org/gnome/portal/filechooser/firefox]
 last-folder-path='/home/gregori/Downloads'
