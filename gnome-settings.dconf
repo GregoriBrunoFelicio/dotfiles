@@ -49,7 +49,7 @@ window-state=(980, 640, true)
 [org/gnome/deja-dup]
 backend='google'
 periodic-timestamp='2026-06-09T09:00:36.789896-03'
-prompt-check='2026-06-09T09:02:37.123863-03'
+prompt-check='2026-07-20T10:30:16.153667-03'
 
 [org/gnome/desktop/a11y/applications]
 screen-reader-enabled=false
@@ -101,7 +101,7 @@ xkb-options=@as []
 toolkit-accessibility=false
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-console', 'firefox', 'gnome-about-panel', 'jetbrains-rider-df05e5cf-a685-46ed-a149-e69c1cc8d0e9', 'kitty', 'org-manjaro-pamac-manager', 'org-gnome-showtime', 'vlc', 'discord', 'code', 'timeshift-gtk', 'com-obsproject-studio', 'org-mozilla-thunderbird', 'org-gnome-nautilus', 'gnome-power-panel', 'org-gnome-characters', 'org-kde-krita', 'jetbrains-toolbox', 'zen']
+application-children=['org-gnome-console', 'firefox', 'gnome-about-panel', 'jetbrains-rider-df05e5cf-a685-46ed-a149-e69c1cc8d0e9', 'kitty', 'org-manjaro-pamac-manager', 'org-gnome-showtime', 'vlc', 'discord', 'code', 'timeshift-gtk', 'com-obsproject-studio', 'org-mozilla-thunderbird', 'org-gnome-nautilus', 'gnome-power-panel', 'org-gnome-characters', 'org-kde-krita', 'jetbrains-toolbox', 'zen', 'org-gnome-dejadup']
 
 [org/gnome/desktop/notifications/application/code]
 application-id='code.desktop'
@@ -135,6 +135,9 @@ application-id='org.gnome.Characters.desktop'
 
 [org/gnome/desktop/notifications/application/org-gnome-console]
 application-id='org.gnome.Console.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-dejadup]
+application-id='org.gnome.DejaDup.desktop'
 
 [org/gnome/desktop/notifications/application/org-gnome-nautilus]
 application-id='org.gnome.Nautilus.desktop'
