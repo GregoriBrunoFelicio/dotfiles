@@ -43,7 +43,7 @@ window-height=640
 window-width=800
 
 [org/gnome/control-center]
-last-panel='bluetooth'
+last-panel='power'
 window-state=(980, 640, true)
 
 [org/gnome/deja-dup]
@@ -236,7 +236,7 @@ name='Kitty Terminal'
 
 [org/gnome/settings-daemon/plugins/power]
 power-button-action='interactive'
-sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-timeout=1800
 sleep-inactive-ac-type='suspend'
 
 [org/gnome/shell]
