@@ -12,6 +12,8 @@ decibels
 deja-dup
 discord
 dmraid
+docker
+docker-compose
 dotnet-sdk
 ecryptfs-utils
 endeavour
@@ -77,6 +79,7 @@ manjaro-zsh-config
 memtest86+
 memtest86+-efi
 micro
+minikube
 mkinitcpio-openswap
 mpv
 mypaint
