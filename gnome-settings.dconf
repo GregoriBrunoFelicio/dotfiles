@@ -42,6 +42,11 @@ is-maximized=true
 window-height=640
 window-width=800
 
+[org/gnome/calendar]
+active-view='month'
+window-maximized=true
+window-size=(768, 600)
+
 [org/gnome/control-center]
 last-panel='power'
 window-state=(980, 640, true)
