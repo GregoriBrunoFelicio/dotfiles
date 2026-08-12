@@ -1,6 +1,7 @@
 acpi
 acpid
 amd-ucode
+aspnet-runtime
 b43-fwcutter
 baobab
 btop
