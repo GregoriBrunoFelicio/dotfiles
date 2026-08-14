@@ -1,3 +1,4 @@
+aws-cli-bin 1:2.36.22-1
 google-chrome 151.0.7922.71-1
 visual-studio-code-bin 1.131.0-1
 walk 1.13.0-1
