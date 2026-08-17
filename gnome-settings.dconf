@@ -223,7 +223,26 @@ migrated-gtk-settings=true
 [org/gnome/nautilus/window-state]
 initial-size=(890, 550)
 initial-size-file-chooser=(890, 550)
-maximized=true
+maximized=false
+
+[org/gnome/papers]
+night-mode=false
+
+[org/gnome/papers/default]
+annot-color='yellow'
+continuous=true
+dual-page=false
+dual-page-odd-left=false
+enable-spellchecking=true
+eraser-mode-objects='true'
+highlight-color='yellow'
+highlight-stroke=2.0
+pen-color='blue'
+pen-stroke=1.0
+show-sidebar=true
+sizing-mode='automatic'
+text-color='blue'
+window-height=1048
 
 [org/gnome/portal/filechooser/code]
 last-folder-path='/home/gregori/Repositories/Interview'
