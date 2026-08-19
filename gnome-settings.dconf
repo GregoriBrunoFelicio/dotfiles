@@ -215,7 +215,7 @@ idle-delay=uint32 900
 migrated=true
 
 [org/gnome/evolution-data-server/calendar]
-reminders-past=['system-calendar\n60783f1b3a5067673c566daef345f8c3108264cb\t20260810\n1786316400\n1786320000\n1786406400\nBEGIN:VEVENT\r\nUID:4965717c63b8f77a2fd83fa1fb988bb7cc56400d\r\nDTSTAMP:20260806T185644Z\r\nDTSTART;VALUE=DATE:20260810\r\nDTEND;VALUE=DATE:20260811\r\nSUMMARY:Volta as aulas\r\nSEQUENCE:1\r\nCREATED:20260806T185644Z\r\nLAST-MODIFIED:20260806T185704Z\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:60783f1b3a5067673c566daef345f8c3108264cb\r\nACTION:DISPLAY\r\nTRIGGER;RELATED=START:-PT3600S\r\nDESCRIPTION:Volta as aulas\r\nEND:VALARM\r\nEND:VEVENT\r\n']
+reminders-past=@as []
 
 [org/gnome/nautilus/preferences]
 migrated-gtk-settings=true
