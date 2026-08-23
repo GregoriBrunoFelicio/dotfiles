@@ -53,8 +53,18 @@ window-state=(980, 640, true)
 
 [org/gnome/deja-dup]
 backend='google'
+delete-after=0
+periodic-period=7
 periodic-timestamp='2026-06-09T09:00:36.789896-03'
-prompt-check='2026-07-20T10:30:16.153667-03'
+prompt-check='disabled'
+window-height=460
+window-width=550
+
+[org/gnome/deja-dup/google]
+folder='Gregori'
+
+[org/gnome/deja-dup/local]
+folder='Gregori'
 
 [org/gnome/desktop/a11y/applications]
 screen-reader-enabled=false
