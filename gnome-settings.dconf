@@ -48,7 +48,7 @@ window-maximized=true
 window-size=(768, 600)
 
 [org/gnome/control-center]
-last-panel='power'
+last-panel='keyboard'
 window-state=(980, 640, true)
 
 [org/gnome/deja-dup]
@@ -109,7 +109,8 @@ interval-seconds=uint32 1800
 play-sound=true
 
 [org/gnome/desktop/input-sources]
-sources=[('xkb', 'us')]
+mru-sources=[('xkb', 'us'), ('xkb', 'br')]
+sources=[('xkb', 'us'), ('xkb', 'br')]
 xkb-options=@as []
 
 [org/gnome/desktop/interface]

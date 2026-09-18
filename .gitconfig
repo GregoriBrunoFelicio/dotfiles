@@ -7,3 +7,5 @@
 [user]
 	email = gregory.wow@hotmail.com
 	name = gregori
+[core]
+	autocrlf = input
